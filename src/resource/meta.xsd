@@ -1,0 +1,55 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GraficoMetaSemanal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="NomeEmpresa"/>
+        <xs:element type="xs:string" name="NomeRelatorio"/>
+        <xs:element name="Dados">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Descricao"/>
+              <xs:element type="xs:string" name="Nome"/>
+              <xs:element type="xs:float" name="ValorMeta"/>
+              <xs:element type="xs:float" name="ValorAtingido"/>
+              <xs:element type="xs:string" name="ImprimirValor"/>
+              <xs:element type="xs:string" name="ImprimirHeader"/>
+              <xs:element name="Detalhe">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="DetalheItem">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Descricao"/>
+                          <xs:element type="xs:string" name="Nome"/>
+                          <xs:element type="xs:float" name="ValorMeta"/>
+                          <xs:element type="xs:float" name="ValorAtingido"/>
+                          <xs:element type="xs:string" name="ImprimirGraficoTotal"/>
+                          <xs:element name="Semanas">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="SemanasItem" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:byte" name="Semana"/>
+                                      <xs:element type="xs:string" name="Descricao"/>
+                                      <xs:element type="xs:float" name="ValorMeta"/>
+                                      <xs:element type="xs:float" name="ValorAtingido"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

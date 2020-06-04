@@ -1,0 +1,53 @@
+<GraficoMetaSemanal>
+	<NomeEmpresa>KnetApp Soluções Inteligentes</NomeEmpresa>
+	<NomeRelatorio>metas.pdf</NomeRelatorio>
+	<Dados>
+		<Descricao>Vendas Estofados</Descricao>
+		<Nome>Venda de Sofás</Nome>
+		<ValorMeta>100.00</ValorMeta>
+		<ValorAtingido>80.00</ValorAtingido>
+		<ImprimirValor>true</ImprimirValor>
+		<ImprimirHeader>true</ImprimirHeader>
+		<Detalhe>
+			<DetalheItem>
+				<Descricao>Descrição 1º</Descricao>
+				<Nome>Poliéster e Polipropileno</Nome>
+				<ValorMeta>100.00</ValorMeta>
+				<ValorAtingido>45.00</ValorAtingido>
+				<ImprimirGraficoTotal>true</ImprimirGraficoTotal>
+				<Semanas>
+					<SemanasItem>
+						<Semana>1</Semana>
+						<Descricao>Semana 1</Descricao>
+						<ValorMeta>100.00</ValorMeta>
+						<ValorAtingido>45.00</ValorAtingido>
+					</SemanasItem>
+					<SemanasItem>
+						<Semana>2</Semana>
+						<Descricao>Semana 2</Descricao>
+						<ValorMeta>100.00</ValorMeta>
+						<ValorAtingido>45.00</ValorAtingido>
+					</SemanasItem>
+					<SemanasItem>
+						<Semana>3</Semana>
+						<Descricao>Semana 3</Descricao>
+						<ValorMeta>100.00</ValorMeta>
+						<ValorAtingido>45.00</ValorAtingido>
+					</SemanasItem>
+					<SemanasItem>
+						<Semana>4</Semana>
+						<Descricao>Semana 4</Descricao>
+						<ValorMeta>100.00</ValorMeta>
+						<ValorAtingido>45.00</ValorAtingido>
+					</SemanasItem>
+					<SemanasItem>
+						<Semana>5</Semana>
+						<Descricao>Semana 5</Descricao>
+						<ValorMeta>100.00</ValorMeta>
+						<ValorAtingido>45.00</ValorAtingido>
+					</SemanasItem>
+				</Semanas>
+			</DetalheItem>
+		</Detalhe>
+	</Dados>
+</GraficoMetaSemanal>
